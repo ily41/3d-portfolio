@@ -201,13 +201,13 @@ function DeskLampLight() {
           <HandCursor />
 
           <MovingLight />
-          {/* <MovingLight2 />
+          <MovingLight2 />
            <DeskLampLight />
           <Room 
             position={[controls.positionX, controls.positionY,controls.positionZ]}
             rotation={[controls.rotationX, controls.rotationY,controls.rotationZ]}
             scale={[controls.scaleX, controls.scaleY,controls.scaleZ,]}
-          /> */}
+          />
         </Camera>
       </Suspense>
       
