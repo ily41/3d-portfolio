@@ -198,7 +198,7 @@ function DeskLampLight() {
 
       <Suspense fallback={<CanvasLoader />}>
         <Camera controls={controls}> 
-          <HandCursor />
+          {/*<HandCursor />*/}
 
           <MovingLight />
           <MovingLight2 />
