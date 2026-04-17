@@ -184,7 +184,7 @@ function DeskLampLight() {
       
       
       <primitive object={new AxesHelper(5)} />
-      {/* <OrbitControls enableZoom enablePan enableRotate /> */}
+      <OrbitControls enableZoom enablePan enableRotate /> 
 
       {/* <directionalLight  position={[1,1,1]} intensity={10} color={0x9CDBA6}/> */}
       <ambientLight intensity={3} />
